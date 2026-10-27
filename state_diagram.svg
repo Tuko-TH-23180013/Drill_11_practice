@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+ <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+ <rect width="1100" height="650" fill="#f8fafc"/>
+ <text x="550" y="52" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#0f172a">소년 상태 전이 다이어그램</text>
+ <g font-family="sans-serif" text-anchor="middle">
+  <g fill="#dbeafe" stroke="#2563eb" stroke-width="2"><rect x="95" y="145" width="190" height="90" rx="22"/><rect x="455" y="145" width="190" height="90" rx="22"/><rect x="815" y="145" width="190" height="90" rx="22"/><rect x="455" y="405" width="190" height="100" rx="22"/></g>
+  <g fill="#0f172a" font-size="24" font-weight="bold"><text x="190" y="200">IDLE</text><text x="550" y="200">RUN</text><text x="910" y="200">SLEEP</text><text x="550" y="465">AUTO_RUN</text></g>
+  <g fill="#334155" font-size="16"><text x="190" y="222">5초 경과 → SLEEP</text><text x="550" y="222">좌우 키를 누르는 동안 이동</text><text x="910" y="222">Space 키 → IDLE</text><text x="550" y="490">5초 동안 가속·확대·끝에서 반전</text></g>
+ </g>
+ <g fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)">
+  <path d="M285 165 C340 125 400 125 455 165"/><path d="M455 215 C400 255 340 255 285 215"/>
+  <path d="M285 185 C480 320 700 320 815 190"/><path d="M815 215 C680 300 420 300 285 215"/>
+  <path d="M190 235 C215 390 350 445 455 450"/><path d="M455 425 C340 360 230 325 190 235"/>
+  <path d="M550 405 L550 235"/><path d="M645 440 C760 400 770 280 645 220"/>
+ </g>
+ <g font-family="sans-serif" font-size="15" fill="#334155">
+  <text x="360" y="125">좌우 키: RUN</text><text x="360" y="275">키를 놓음: IDLE</text>
+  <text x="500" y="310">5초 경과: SLEEP</text><text x="570" y="335">Space</text>
+  <text x="300" y="375">A 키: AUTO_RUN</text><text x="300" y="340">5초 경과: IDLE</text>
+  <text x="605" y="320">방향 키: RUN</text>
+ </g>
+ <text x="550" y="590" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#475569">AUTO_RUN 중 방향 키를 누르면 지정 방향의 RUN으로 전환하고 자동 달리기 효과를 초기화합니다.</text>
+</svg>
